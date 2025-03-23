@@ -9,6 +9,7 @@ import {
 } from '@/utils/taskUtils';
 import Container from '@/components/ui/Container';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import StreakDisplay from '@/components/streak/StreakDisplay';
 import {
   LineChart,
   Line,
@@ -80,6 +81,11 @@ const Dashboard = () => {
           <p className="text-muted-foreground">
             Your productivity overview and task insights
           </p>
+        </div>
+        
+        {/* Streak Display */}
+        <div className="mb-6">
+          <StreakDisplay />
         </div>
         
         {/* Stats Overview */}
