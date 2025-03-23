@@ -16,7 +16,7 @@ import {
   Volume2,
   Save,
   RotateCcw,
-  languages
+  // Removing the incorrect import 'languages'
 } from 'lucide-react';
 import { toast } from "sonner";
 
